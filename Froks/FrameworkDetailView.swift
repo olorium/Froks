@@ -48,6 +48,8 @@ struct FrameworkDetailView: View {
             .fullScreenCover(isPresented: $showSafari, content: {
                 if let url = URL(string: framework.urlString){
                     SFSafariViewWrapper(url: url)
+                } else {
+                    SFSafariViewWrapper(url: URL(string: "https://developer.apple.com")!)
                 }
             })
         }
