@@ -16,6 +16,7 @@
 		FAB3E916289D45A30062B3EE /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */; };
 		FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E917289D96EE0062B3EE /* AFButton.swift */; };
 		FAB3E91A289D9BDE0062B3EE /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E919289D9BDE0062B3EE /* FrameworkGridViewModel.swift */; };
+		FAB3E91D289DAA2B0062B3EE /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		FAB3E917289D96EE0062B3EE /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		FAB3E919289D9BDE0062B3EE /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */,
 				FA71B1EE289C0E3E00B7000C /* Framework.swift */,
 				FA71B1F0289C154C00B7000C /* Views */,
+				FAB3E91B289DAA0D0062B3EE /* Helpers */,
 				FA71B1E4289C0D6700B7000C /* Assets.xcassets */,
 				FA71B1E6289C0D6700B7000C /* Preview Content */,
 			);
@@ -88,6 +91,14 @@
 				FAB3E917289D96EE0062B3EE /* AFButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FAB3E91B289DAA0D0062B3EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */,
 				FAB3E91A289D9BDE0062B3EE /* FrameworkGridViewModel.swift in Sources */,
 				FA71B1E1289C0D6600B7000C /* FroksApp.swift in Sources */,
+				FAB3E91D289DAA2B0062B3EE /* SFSafariViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
