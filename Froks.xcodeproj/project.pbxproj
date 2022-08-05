@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		FA71B1E1289C0D6600B7000C /* FroksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E0289C0D6600B7000C /* FroksApp.swift */; };
-		FA71B1E3289C0D6600B7000C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E2289C0D6600B7000C /* ContentView.swift */; };
+		FA71B1E3289C0D6600B7000C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */; };
 		FA71B1E5289C0D6700B7000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA71B1E4289C0D6700B7000C /* Assets.xcassets */; };
 		FA71B1E8289C0D6700B7000C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA71B1E7289C0D6700B7000C /* Preview Assets.xcassets */; };
 		FA71B1EF289C0E3E00B7000C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1EE289C0E3E00B7000C /* Framework.swift */; };
+		FA71B1F2289C155E00B7000C /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */; };
+		FAB3E916289D45A30062B3EE /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */; };
+		FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E917289D96EE0062B3EE /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA71B1DD289C0D6600B7000C /* Froks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Froks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA71B1E0289C0D6600B7000C /* FroksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FroksApp.swift; sourceTree = "<group>"; };
-		FA71B1E2289C0D6600B7000C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		FA71B1E4289C0D6700B7000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA71B1E7289C0D6700B7000C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA71B1EE289C0E3E00B7000C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		FAB3E917289D96EE0062B3EE /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +59,13 @@
 		FA71B1DF289C0D6600B7000C /* Froks */ = {
 			isa = PBXGroup;
 			children = (
+				FA71B1F0289C154C00B7000C /* Views */,
 				FA71B1E0289C0D6600B7000C /* FroksApp.swift */,
-				FA71B1E2289C0D6600B7000C /* ContentView.swift */,
+				FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */,
+				FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */,
+				FA71B1EE289C0E3E00B7000C /* Framework.swift */,
 				FA71B1E4289C0D6700B7000C /* Assets.xcassets */,
 				FA71B1E6289C0D6700B7000C /* Preview Content */,
-				FA71B1EE289C0E3E00B7000C /* Framework.swift */,
 			);
 			path = Froks;
 			sourceTree = "<group>";
@@ -68,6 +76,15 @@
 				FA71B1E7289C0D6700B7000C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA71B1F0289C154C00B7000C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */,
+				FAB3E917289D96EE0062B3EE /* AFButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA71B1E3289C0D6600B7000C /* ContentView.swift in Sources */,
+				FA71B1E3289C0D6600B7000C /* FrameworkGridView.swift in Sources */,
+				FAB3E916289D45A30062B3EE /* FrameworkDetailView.swift in Sources */,
 				FA71B1EF289C0E3E00B7000C /* Framework.swift in Sources */,
+				FA71B1F2289C155E00B7000C /* FrameworkTitleView.swift in Sources */,
+				FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */,
 				FA71B1E1289C0D6600B7000C /* FroksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
