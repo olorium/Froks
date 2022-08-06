@@ -11,7 +11,7 @@ import SwiftUI
 struct FroksApp: App {
     var body: some Scene {
         WindowGroup {
-            FrameworkGridView()
+            FrameworkView()
         }
     }
 }

@@ -10,29 +10,18 @@ import SwiftUI
 struct FrameworkDetailView: View {
     
     let framework: Framework
-    @State var showSafari = false
+    @State var gridView: Bool
+    @State private var showSafari = false
     @Binding var isShowing: Bool
+    @StateObject var viewModel = FrameworkViewModel()
     
     var body: some View {
         VStack {
-            
-            // Dismiss button
-            HStack {
-                Spacer()
-                Button {
-                    isShowing = false
-                } label: {
-                    Image(systemName: "xmark")
-                        .foregroundColor(Color(.label))
-                        .imageScale(.large)
-                        .frame(width: 44, height: 44)
-                }
+            if gridView {
+                DismissButtonView(isTapped: $isShowing, imageName: "xmark")
             }
-            .padding()
-            
             // Framework details
-            Spacer()
-            FrameworkTitleView(framework: framework)
+            FrameworkGridTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
                 .padding()
@@ -45,12 +34,8 @@ struct FrameworkDetailView: View {
             } label: {
                 AFButton(title: "Learn More")
             }
-            .fullScreenCover(isPresented: $showSafari, content: {
-                if let url = URL(string: framework.urlString){
-                    SFSafariViewWrapper(url: url)
-                } else {
-                    SFSafariViewWrapper(url: URL(string: "https://developer.apple.com")!)
-                }
+            .sheet(isPresented: $showSafari, content: {
+                SFSafariViewWrapper(url: URL(string: framework.urlString) ?? URL(string: "https://developer.apple.com")!)
             })
         }
     }
@@ -58,7 +43,7 @@ struct FrameworkDetailView: View {
 
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: MockData.sampleFramework, isShowing: .constant(false))
+        FrameworkDetailView(framework: MockData.sampleFramework, gridView: true, isShowing: .constant(false))
             .preferredColorScheme(.dark)
     }
 }

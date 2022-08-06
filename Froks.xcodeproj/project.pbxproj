@@ -8,29 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		FA71B1E1289C0D6600B7000C /* FroksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E0289C0D6600B7000C /* FroksApp.swift */; };
-		FA71B1E3289C0D6600B7000C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */; };
+		FA71B1E3289C0D6600B7000C /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1E2289C0D6600B7000C /* FrameworkView.swift */; };
 		FA71B1E5289C0D6700B7000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA71B1E4289C0D6700B7000C /* Assets.xcassets */; };
 		FA71B1E8289C0D6700B7000C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA71B1E7289C0D6700B7000C /* Preview Assets.xcassets */; };
 		FA71B1EF289C0E3E00B7000C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1EE289C0E3E00B7000C /* Framework.swift */; };
-		FA71B1F2289C155E00B7000C /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */; };
+		FA71B1F2289C155E00B7000C /* FrameworkGridTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71B1F1289C155E00B7000C /* FrameworkGridTitleView.swift */; };
 		FAB3E916289D45A30062B3EE /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */; };
 		FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E917289D96EE0062B3EE /* AFButton.swift */; };
-		FAB3E91A289D9BDE0062B3EE /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E919289D9BDE0062B3EE /* FrameworkGridViewModel.swift */; };
+		FAB3E91A289D9BDE0062B3EE /* FrameworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E919289D9BDE0062B3EE /* FrameworkViewModel.swift */; };
 		FAB3E91D289DAA2B0062B3EE /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */; };
+		FAB3E91F289DB09C0062B3EE /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E91E289DB09C0062B3EE /* DismissButtonView.swift */; };
+		FAB3E921289DB3460062B3EE /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E920289DB3460062B3EE /* FrameworkGridView.swift */; };
+		FAB3E923289DB56D0062B3EE /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E922289DB56D0062B3EE /* FrameworkListView.swift */; };
+		FAB3E928289DBB7F0062B3EE /* FrameworkListTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E927289DBB7F0062B3EE /* FrameworkListTitleView.swift */; };
+		FAB3E92A289DC04C0062B3EE /* AppearenceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E929289DC04C0062B3EE /* AppearenceButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA71B1DD289C0D6600B7000C /* Froks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Froks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA71B1E0289C0D6600B7000C /* FroksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FroksApp.swift; sourceTree = "<group>"; };
-		FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		FA71B1E2289C0D6600B7000C /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		FA71B1E4289C0D6700B7000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA71B1E7289C0D6700B7000C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA71B1EE289C0E3E00B7000C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
-		FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		FA71B1F1289C155E00B7000C /* FrameworkGridTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridTitleView.swift; sourceTree = "<group>"; };
 		FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		FAB3E917289D96EE0062B3EE /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
-		FAB3E919289D9BDE0062B3EE /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		FAB3E919289D9BDE0062B3EE /* FrameworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewModel.swift; sourceTree = "<group>"; };
 		FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		FAB3E91E289DB09C0062B3EE /* DismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonView.swift; sourceTree = "<group>"; };
+		FAB3E920289DB3460062B3EE /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		FAB3E922289DB56D0062B3EE /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
+		FAB3E927289DBB7F0062B3EE /* FrameworkListTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListTitleView.swift; sourceTree = "<group>"; };
+		FAB3E929289DC04C0062B3EE /* AppearenceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				FA71B1E0289C0D6600B7000C /* FroksApp.swift */,
-				FAB3E919289D9BDE0062B3EE /* FrameworkGridViewModel.swift */,
-				FA71B1E2289C0D6600B7000C /* FrameworkGridView.swift */,
+				FA71B1E2289C0D6600B7000C /* FrameworkView.swift */,
 				FAB3E915289D45A30062B3EE /* FrameworkDetailView.swift */,
-				FA71B1EE289C0E3E00B7000C /* Framework.swift */,
+				FAB3E919289D9BDE0062B3EE /* FrameworkViewModel.swift */,
+				FAB3E926289DB85B0062B3EE /* Models */,
 				FA71B1F0289C154C00B7000C /* Views */,
 				FAB3E91B289DAA0D0062B3EE /* Helpers */,
 				FA71B1E4289C0D6700B7000C /* Assets.xcassets */,
@@ -87,8 +97,11 @@
 		FA71B1F0289C154C00B7000C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA71B1F1289C155E00B7000C /* FrameworkTitleView.swift */,
-				FAB3E917289D96EE0062B3EE /* AFButton.swift */,
+				FAB3E924289DB5A10062B3EE /* Buttons */,
+				FA71B1F1289C155E00B7000C /* FrameworkGridTitleView.swift */,
+				FAB3E927289DBB7F0062B3EE /* FrameworkListTitleView.swift */,
+				FAB3E920289DB3460062B3EE /* FrameworkGridView.swift */,
+				FAB3E922289DB56D0062B3EE /* FrameworkListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +112,24 @@
 				FAB3E91C289DAA2B0062B3EE /* SFSafariViewWrapper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FAB3E924289DB5A10062B3EE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E917289D96EE0062B3EE /* AFButton.swift */,
+				FAB3E91E289DB09C0062B3EE /* DismissButtonView.swift */,
+				FAB3E929289DC04C0062B3EE /* AppearenceButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FAB3E926289DB85B0062B3EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA71B1EE289C0E3E00B7000C /* Framework.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,13 +202,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA71B1E3289C0D6600B7000C /* FrameworkGridView.swift in Sources */,
+				FA71B1E3289C0D6600B7000C /* FrameworkView.swift in Sources */,
+				FAB3E923289DB56D0062B3EE /* FrameworkListView.swift in Sources */,
+				FAB3E928289DBB7F0062B3EE /* FrameworkListTitleView.swift in Sources */,
 				FAB3E916289D45A30062B3EE /* FrameworkDetailView.swift in Sources */,
 				FA71B1EF289C0E3E00B7000C /* Framework.swift in Sources */,
-				FA71B1F2289C155E00B7000C /* FrameworkTitleView.swift in Sources */,
+				FA71B1F2289C155E00B7000C /* FrameworkGridTitleView.swift in Sources */,
 				FAB3E918289D96EE0062B3EE /* AFButton.swift in Sources */,
-				FAB3E91A289D9BDE0062B3EE /* FrameworkGridViewModel.swift in Sources */,
+				FAB3E92A289DC04C0062B3EE /* AppearenceButtonView.swift in Sources */,
+				FAB3E91A289D9BDE0062B3EE /* FrameworkViewModel.swift in Sources */,
 				FA71B1E1289C0D6600B7000C /* FroksApp.swift in Sources */,
+				FAB3E921289DB3460062B3EE /* FrameworkGridView.swift in Sources */,
+				FAB3E91F289DB09C0062B3EE /* DismissButtonView.swift in Sources */,
 				FAB3E91D289DAA2B0062B3EE /* SFSafariViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
